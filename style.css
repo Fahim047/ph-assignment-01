@@ -36,29 +36,35 @@ nav {
 	/* border: 2px solid red; */
 	padding: 30px 120px;
 }
-.header-title {
+.nav-title {
 	font-size: 32px;
 	font-weight: 800;
 }
 
 .hero-section {
-	max-width: 1440px;
+	width: 100%;
 	height: 652px;
+	padding: 26px 221px;
 	background-image: url(./assets/Hero-bg.png);
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-position: center;
 	/* border: 2px solid red; */
 }
 
 .hero-content {
-	width: 69%;
-	margin: 30px auto;
+	width: 998px;
 	/* border: 2px solid red; */
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	gap: 30px;
+}
+
+.hero-image {
+	width: 240px;
+	height: 240px;
 }
 
 .hero-title {
