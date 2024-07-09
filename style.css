@@ -1,24 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
 
+body {
+	max-width: 1440px;
+	margin: 0 auto;
+	font-family: 'Azeret Mono', monospace;
+}
+
+.text-blue-2 {
+	color: #0d1321;
+}
+
 .btn {
 	padding: 17px 24px;
+	font-family: 'Azeret Mono', monospace;
 	font-size: 20px;
 	font-weight: 600;
 	background-color: transparent;
 	border-radius: 8px;
 }
 
-header {
+.btn-dark {
+	background-color: #0d1321;
+	color: white;
+}
+
+nav {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	/* border: 2px solid red; */
-	padding: 40px 120px;
+	padding: 30px 120px;
 }
 .header-title {
 	font-size: 32px;
+	font-weight: 800;
+}
+
+.hero-section {
+	max-width: 1440px;
+	height: 652px;
+	background-image: url(./assets/Hero-bg.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	/* border: 2px solid red; */
+}
+
+.hero-content {
+	width: 69%;
+	margin: 30px auto;
+	/* border: 2px solid red; */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 30px;
+}
+
+.hero-title {
+	font-size: 48px;
+	font-weight: 900;
+	line-height: 68px;
+	text-align: center;
+}
+
+.hero-description {
+	padding: 0 73px;
+	/* border: 2px solid red; */
+	text-align: center;
+	line-height: 26px;
 }
