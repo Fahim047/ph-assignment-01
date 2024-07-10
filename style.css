@@ -208,3 +208,34 @@ main {
 .target-item-image {
 	width: 56px;
 }
+
+/* Next Target Section Styles */
+.next-target-content {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+.next-target-list {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+.target-item {
+	display: flex;
+	gap: 30px;
+	padding: 40px;
+	border: 1px solid #0d132133;
+	border-radius: 16px;
+}
+
+.target-item-content {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.next-target-image {
+	width: 108px;
+	height: 108px;
+	object-fit: scale-down;
+}
