@@ -11,6 +11,11 @@ body {
 	font-family: 'Azeret Mono', monospace;
 }
 
+a {
+	color: #0d1321;
+	font-weight: bold;
+}
+
 .text-blue-2 {
 	color: #0d1321;
 }
@@ -32,6 +37,7 @@ body {
 	background-color: transparent;
 	border-radius: 8px;
 	color: #0d1321;
+	cursor: pointer;
 }
 
 .btn-dark {
@@ -238,4 +244,60 @@ main {
 	width: 108px;
 	height: 108px;
 	object-fit: scale-down;
+}
+
+/* Feedback Section Styles */
+
+.feedback-section {
+	margin: 80px 0;
+	height: 313px;
+	padding: 64px;
+	background-image: linear-gradient(
+			to bottom,
+			rgba(0, 0, 0, 0.555),
+			rgba(0, 0, 0, 0.265)
+		),
+		url('./assets/handshake.jpg');
+	background-size: cover;
+	background-position: center;
+	border-radius: 16px;
+}
+
+.feedback-content {
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+	text-align: center;
+}
+
+.feedback-title {
+	color: white;
+	font-size: 32px;
+	font-weight: 700;
+}
+
+.feedback-description {
+	color: #ffffff66;
+}
+
+.feedback-form {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+}
+
+input {
+	display: inline-block;
+	width: 548px;
+	padding: 20px;
+	border-radius: 8px;
+	font-size: 16px;
+	border: none;
+	outline: none;
+}
+
+.feedback-btn {
+	background-color: white;
 }
