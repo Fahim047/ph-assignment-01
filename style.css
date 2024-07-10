@@ -14,6 +14,15 @@ body {
 .text-blue-2 {
 	color: #0d1321;
 }
+.bg-1 {
+	background-color: #ff4c1e0d;
+}
+.bg-2 {
+	background-color: #004ce80d;
+}
+.bg-3 {
+	background-color: #ffdf000d;
+}
 
 .btn {
 	padding: 17px 24px;
@@ -162,4 +171,40 @@ main {
 }
 .video-container iframe {
 	border-radius: 16px;
+}
+
+/* Current Target Section Styles */
+
+.current-target-section {
+	margin: 80px 0;
+}
+
+.current-target-content {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+
+.target-list {
+	display: flex;
+	justify-content: center;
+	gap: 30px;
+}
+
+.target-item-card {
+	padding: 40px;
+	/* border: 2px solid red; */
+	border-radius: 16px;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.target-item-title {
+	font-size: 24px;
+	font-weight: 800;
+}
+
+.target-item-image {
+	width: 56px;
 }
