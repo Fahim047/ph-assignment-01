@@ -99,7 +99,6 @@ main {
 
 .web-dev-section {
 	width: 100%;
-	height: 1393px;
 	padding: 80px 90px;
 	/* border: 2px solid red; */
 	background-color: #0d132105;
@@ -147,4 +146,20 @@ main {
 
 .reason-item button {
 	padding: 12px 20px;
+}
+
+/* Inspiration Section Styles */
+.inspiration-content {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+.video-container {
+	border: 1px solid #0d132133;
+	padding: 32px;
+	text-align: center;
+	border-radius: 16px;
+}
+.video-container iframe {
+	border-radius: 16px;
 }
