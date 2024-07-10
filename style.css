@@ -75,13 +75,14 @@ nav {
 	padding: 0 73px;
 	/* border: 2px solid red; */
 	text-align: center;
+	color: #0d1321;
 }
 
 .hero-section {
 	width: 100%;
 	height: 652px;
 	padding: 26px 221px;
-	background-image: url(./assets/hero-bg.png);
+	background-image: url('./assets/hero-bg.png');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
